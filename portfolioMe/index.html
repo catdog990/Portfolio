@@ -27,7 +27,39 @@
 <body>
 
   
-<!-- fist section of parallax -->
+
+      <ul id="slide-out" class="sidenav">
+        <li>
+          <div class="user-view">
+            <div class="background">
+              <img src="images/meh.jpg" height="400" width="300">
+            </div>
+            <div></div><br>
+            <div></div><br>
+            <div></div><br>
+            <div></div><br>  
+            <div></div><br>  
+          </div>
+        </li>
+        <a href="#name"><span class="white-text name">Osman Mendieta-Castro</span></a>
+        <br><br>
+        <a href="#email"><span class="white-text email">ozmcastro@gmail.com</span></a>
+    
+        <!-- divider below -->
+        <li><div class="divider"></div></li>
+    
+        <li><img src="images/git.png" height="50"><a href="#!" class="white-text">Github</a></li>
+        <li><img src="images/linkedin_circle_logo.png" height="50"><a href="#!" class="white-text">LinkedIn</a></li>
+      </ul>
+     
+   
+      <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+        
+
+
+  
+<!-- first section of parallax -->
 
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
@@ -35,7 +67,7 @@
         <br><br>
         <h1 class="header center  light" id="white">Osman Mendieta-Castro</h1>
         <div class="row center">
-          <h5 class="header col s12 light" id-"white">Full Stack Web Developer</h5>
+          <h5 class="header col s12 light" id="white">Full Stack Web Developer</h5>
         </div>
      
         <br><br>
@@ -46,7 +78,7 @@
   </div>
 
 
-  <div class="container">
+  <div class="container" id="black">
     <div class="section">
 
       <!--   About Section   -->
@@ -54,9 +86,9 @@
        <div class="row">
        
           <div class="col s12 center">
-            <h3><i class="mdi-content-send brown-text"></i></h3>
-            <h4>Whats Up with Meh</h4>
-            <p class="left-align light">What makes a great developer?  This is a question I ask myself everytime I'm working on a new project.  Creativity, patience, and work ethic would probably be some of the things you think I would say.  Now while theses qualities are important, they are not what make a good developer in my opinion.  Constantly learning and having the stones to follow through on your ideas are far more important.  These qualities are what I bring to my projects; I am not afraid to take on projects that involve learning, or push broundaries.</p>
+            <h3><i class="mdi-content-send"></i></h3>
+            <h4 id="white">Whats Up with Meh</h4>
+            <p class="left-align light" id="white">What makes a great developer?  This is a question I ask myself everytime I'm working on a new project.  Creativity, patience, and work ethic would probably be some of the things you think I would say.  Now while theses qualities are important, they are not what make a good developer in my opinion.  Constantly learning and having the stones to follow through on your ideas are far more important.  These qualities are what I bring to my projects; I am not afraid to take on projects that involve learning, or push broundaries.</p>
           </div>
         
       </div>
@@ -66,58 +98,59 @@
 
 
   <!-- Work Examples Section  -->
+  <!-- TEXT IS NOT SHOWING UP ON CARD REVEAL, FIX LATER -->
 
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
           
-        <div class="col s12 m4">
+        <div class="col s12 m4" id="firstCard">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="images/background1.jpg">
+                  <img class="activator" src="images/novafyCrop.png">
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                  <p><a href="#">Take a Strole!</a></p>
+                  <span class="card-title activator grey-text text-darken-4">Novafy<i class="material-icons right">more_vert</i></span>
+                  <p><a href="https://tranquil-taiga-41568.herokuapp.com/" target="_blank">Take a Strole!</a></p>
                 </div>
                 <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                  <span class="card-title grey-text text-darken-4"><p>Novafy is a news article consolodation app.  Aimed for a quick flash of news to stay in the know!</p><i class="material-icons right">close</i></span>
+               
                 </div>
               </div>  
           </div>
 
-        <div class="col s12 m4">
+        <div class="col s12 m4" id="secondCard">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="images/background1.jpg">
+                  <img class="activator" src="images/RightCrop.png">
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                  <p><a href="#">Take a Strole!</a></p>
+                  <span class="card-title activator grey-text text-darken-4">Right To You<i class="material-icons right">more_vert</i></span>
+                  <p><a href="https://radiant-river-47116.herokuapp.com/" target="_blank">Click The Link!</a></p>
                 </div>
                 <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                  <span class="card-title grey-text text-darken-4"><p>Right to You is a job posting app.  Meant to bring a freelancer's services right to their client's door steps.</p><i class="material-icons right">close</i></span>
+                 
                 </div>
               </div>  
           </div>
 
-        <div class="col s12 m4">
+        <div class="col s12 m4" id="thirdCard">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="images/background1.jpg">
+                  <img class="activator" src="images/macrolite.png">
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                  <p><a href="#">Take a Strole!</a></p>
+                  <span class="card-title activator grey-text text-darken-4">Macro<i class="material-icons right">more_vert</i></span>
+                  <p><a href="#">You know you want to!</a></p>
                 </div>
                 <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                  <span class="card-title grey-text text-darken-4"> <p>Macro is a mobile fitness tracking application.</p><i class="material-icons right">close</i></span>
+                 
                 </div>
-              </div>  
+            </div>  
           </div>
 
         </div>
@@ -131,8 +164,11 @@
   <div class="container">
     <div class="section">
 
+      <div id="bottomBorder">
+      <h4>My Ever Expanding Repertoire</h4>
+      </div>
       <div class="col s12 m4">
-       <div class="row">
+       <div class="row" id="bottomBorder">
 
           <div class="carousel">
             <a class="carousel-item" href="#one!"><img src="images/handlebars.png"></a>
@@ -146,8 +182,8 @@
             <a class="carousel-item" href="#nine!"><img src="images/css3.png"></a>
             <a class="carousel-item" href="#ten!"><img src="images/javascript.png"></a>
             <a class="carousel-item" href="#eleven!"><img src="images/aws.png"></a>
-            <a class="carousel-item" href="#thirteen!"><img src="images/react.png"></a>
-            <a class="carousel-item" href="#fourteen!"><img src="images/native.png"></a>
+            <a class="carousel-item" href="#twelve!"><img src="images/react.png"></a>
+            <a class="carousel-item" href="#thirteen!"><img src="images/native.png"></a>
           
            </div>
        </div>
@@ -158,52 +194,76 @@
     </div>
   </div> 
 
-<!-- Footer -->
+
 
 
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h4 class="header col s12 light">Placeholder Placeholder Placeholder</h4>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="images/kapoor.png" alt="Unsplashed background img 3"></div>
+    <div class="parallax">
+      <iframe src="https://giphy.com/embed/2qdJROPDenSFO" width="350" height="550" frameBorder="0" class="giphy-embed" id="margin1" allowFullScreen></iframe><a href="https://giphy.com/gifs/minimal-tumblr-featured-2qdJROPDenSFO"></a>
+      <iframe src="https://giphy.com/embed/2qdJROPDenSFO" width="320" height="480" frameBorder="0" class="giphy-embed" id="margin" allowFullScreen></iframe><a href="https://giphy.com/gifs/minimal-tumblr-featured-2qdJROPDenSFO"></a>
+      <iframe src="https://giphy.com/embed/2qdJROPDenSFO" width="300" height="400" frameBorder="0" class="giphy-embed" id="margin" allowFullScreen></iframe><a 
+      <div class="col s12 m4">
+          <div class="row" id="bottomBorder">
+   
+             <div class="carousel">
+               <a class="carousel-item" href="#one!"><img src="images/handlebars.png"></a>
+               <a class="carousel-item" href="#two!"><img src="images/ejs.png"></a>
+               <a class="carousel-item" href="#three!"><img src="images/mongodb111.png"></a>
+               <a class="carousel-item" href="#four!"><img src="images/mysql.png"></a>
+               <a class="carousel-item" href="#five!"><img src="images/node.png"></a>
+               <a class="carousel-item" href="#six!"><img src="images/firebase.png"></a>
+               <a class="carousel-item" href="#seven!"><img src="images/sass.png"></a>
+               <a class="carousel-item" href="#eight!"><img src="images/html.png"></a>
+               <a class="carousel-item" href="#nine!"><img src="images/css3.png"></a>
+               <a class="carousel-item" href="#ten!"><img src="images/javascript.png"></a>
+               <a class="carousel-item" href="#eleven!"><img src="images/aws.png"></a>
+               <a class="carousel-item" href="#twelve!"><img src="images/react.png"></a>
+               <a class="carousel-item" href="#thirteen!"><img src="images/native.png"></a>
+             
+              </div>
+          </div>
+          
+           
+         </div>
+    </div>
   </div>
 
+
+  <!-- Footer -->
+  
   <footer class="page-footer teal">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+          <h5 class="grey-text text-lighten-4">Thank you very much for visiting my portfolio.  As I am always working, I am constatly adding to my website.  Check back soon, because chances are, things have change.</h5>
 
 
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul> -->
-      </div>
+        
+        </div>
+
         <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
+          <h5 class="white-text">More of Me!</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-             <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a class="white-text" href="https://github.com/catdog990" target="_blank"><strong>Github</strong></a></li><br>
+            <li><a class="white-text" href="https://www.linkedin.com/in/osman-mendieta-castro-688732149/" target="_blank"><strong>LinkedIn</strong></a></li><br>
+            <li><a class="white-text" href="https://www.upwork.com/freelancers/~01ca914eccc6c71171" target="_blank"><strong>Upwork</strong></a></li><br>
+          
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">This Guy!</a>
       </div>  
     </div>
   </footer>
