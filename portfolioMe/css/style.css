@@ -98,6 +98,10 @@ footer.page-footer {
    #bottomBorder{
      border-bottom: 2px solid black;
    }
+   #bottomBorderWhite{
+     border-bottom: 2px solid white;
+   }
+
 
    #margin1{
      margin-left: 150px;
