@@ -56,11 +56,6 @@ footer.page-footer {
   margin: 0;
 }
 
-/* side-nav */
-
-#slide-out{
-  background-color: black;
-   }
 
 /* Color */
 
@@ -79,6 +74,11 @@ footer.page-footer {
     }
 
     #gray{
+      background-color: 	
+      #808080;
+    }
+
+    .modalColor{
       background-color: 	
       #808080;
     }
